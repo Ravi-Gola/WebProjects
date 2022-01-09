@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about us</title>
+    <link rel="stylesheet" href="about.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <img id="logo" src="Institute-and-Education-Logo-Transparent.png" alt="">
+            <div class="navbar" id="navbar">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                
+                <ul>
+                    <li><a href="education.html">home</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="course.html">course</a></li>
+                    <li><a href="contact.html">contact us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" id="menu" onclick="showmenu()"></i>
+        </nav>
+       
+            <h1>About Us</h1>
+       
+       </section>
+       <section class="middle">
+           <div id="text">
+               <h1> we are the world's largest University</h1>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores, vitae nam. Voluptates iusto ut veritatis perspiciatis quidem consequuntur dignissimos quod nobis! Perferendis laboriosam reiciendis deleniti ex, illum aspernatur a officia eaque blanditiis, eius ab ipsum similique ipsa tempore atque in accusantium repellendus maiores quas doloribus sed exercitationem voluptas animi. Corrupti!</p>
+                <a href="" id="button">EXPLORE</a>
+           </div>
+           <div>
+               <img src="about us img.jpg" id="image" alt="">
+           </div>
+       </section>
+       <section class="about">
+        <h1>About us</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <div class="icons">
+             <a href="www.facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a><a href="www.twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+             <a href="www.instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a><a href="www.linkdin.com"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        </div>
+        <p>........made by ravi gola........</p>
+    </section>
+    <!-- --------javascript------- -->
+    <script>
+        let navbar = document.getElementById('navbar');
+        function hidemenu()
+        {
+               navbar.style.display = "none";
+              
+        }
+        function showmenu()
+        {
+         navbar.style.display = "block";
+         
+        }
+    </script>
+    </body>
+    </html>

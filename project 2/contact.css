@@ -1,0 +1,214 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    min-height: 50vh;
+    width: 100%;
+    background: url('contact\ url.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#logo{
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+}
+.header nav{
+    display: flex;
+    background-color:rgba(5, 5, 17, 0.582);
+}
+.navbar{
+    position: absolute;
+    top: 20px;
+    right: 0px;
+}
+.header ul{
+    display: flex;
+    overflow:auto;
+}
+.header ul li{
+    display:inline-block;
+    list-style: none;
+    margin-right: 70px;
+    
+}
+.header ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: larger;
+    color: white;
+    padding-left:3px ;
+    padding-right: 3px;
+   
+}
+.header ul li a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 11px;
+    }
+    nav .fa{
+        display: none;
+    }
+.header h1{
+    margin-top: 150px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+/* -------map----- */
+.map div img {
+    width: 80%;
+    height: 500px;
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+}
+
+/* --------contact------ */
+.contact{
+    display: flex;
+    margin-top: 100px;
+}
+.contact div{
+    width: 50%;
+    height: 500px;
+    margin: 30px;
+   
+}
+.address i{
+        display: block;
+        color: red;
+        font-size: 40px;
+        margin-bottom: 20px;
+        margin-left: 150px;
+    }
+    .address i p{
+            color: #b7aaaa;
+            font-size: 26px;
+            margin-left: 76px;
+        }
+.form{
+   text-align: center;
+}
+.form form{
+    padding: 5px;
+}
+.form form input{
+    width: 70%;
+    margin-bottom: 20px;
+}
+.form form textarea{
+    width: 70%;
+    margin-bottom: 20px;
+}
+.form form a{
+    text-decoration: none;
+    background-color: red;
+    border: 2px solid brown;
+    color: white;
+    width: 70px;
+}
+/* media querry */
+@media (max-width: 550px){
+    .header ul{
+        flex-direction: column;
+        
+        }
+        .navbar{
+            position:absolute;
+            top: 0px;
+            display: none;
+            height: 50vh;
+            width: 200px;
+            background-color:rgba(5, 5, 17, 0.582);
+            z-index: 2;
+        
+        }
+        .header{
+            min-height: 50vh;
+        }
+    .header ul li{
+        margin-bottom: 15px;
+        margin-left: 20px;
+    }
+    nav .fa{
+        display: block;
+        color: white;
+        cursor: pointer;
+        font-size: 22px;
+        margin: 22px;
+    }
+    #menu{
+        position: absolute;
+        right: 10px;
+    }
+    .map div img {
+        width: 80%;
+        height: 300px;
+    }
+    .contact{
+        flex-direction: column;
+    }
+    .contact div {
+        width: 100%;
+        margin: 0px;
+        height: 300px;
+    }
+    .address i {
+        font-size: 17px;
+        margin-left: 30px;
+    }
+    .address i p {
+        font-size: 12px;
+        margin-left: 33px;
+    }
+}
+@media (min-width:1000px) and (max-width:1240px){
+    .address i{
+        font-size: 30px;
+    }
+    .address i p{
+            font-size: 20px;
+        }
+
+}
+@media (min-width:800px) and (max-width:1000px){
+    .address i{
+        font-size: 25px;
+        margin-left: 100px;
+    }
+    .address i p{
+            font-size: 16px;
+        }
+        .form form textarea {
+            height: 150px;
+        }
+
+}
+@media (min-width:550px) and (max-width:800px){
+    .contact{
+        flex-direction: column;
+    }
+    .contact div {
+        width: 100%;
+        margin: 0px;
+    }
+    .address i{
+        font-size: 30px;
+        margin-left: 100px;
+    }
+    .address i p{
+            font-size: 21px;
+        }
+        .header ul li{
+            display:inline-block;
+            list-style: none;
+            margin-right: 30px;
+            
+        }
+
+}
