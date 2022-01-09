@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yourfruitshop</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <style>
+        body{
+            padding: 0px;
+            margin: 0px;
+            height: 1700px;
+
+        }
+        header{ 
+            
+        
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            background: url('fruits.jpg');
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            
+            
+            
+        }
+        #navigation{
+            background-color: rgba(0, 0, 0, 0.39);
+            height: 65px;
+            width: 100%;
+            
+         }
+        header ul{
+            overflow: auto;
+            display: ;
+        }
+        header li{
+              float: left;
+            list-style: none;
+        }
+        
+        header li a{
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            padding-left: 60px;
+            padding-right: 15px;
+            font-size: 120%;
+        }
+        header li a:hover{
+            color:black;
+        }
+        #box{
+            
+            word-wrap: break-word;
+            text-align: center;
+            margin: auto;
+            margin-top: 150px;
+            color: rgb(119, 29, 29);
+        }
+        #box a{
+            
+            border: 3px solid  rgb(119, 29, 29);
+            border-radius: 7px;
+           padding: 4px;
+           text-decoration: none;
+           color: black;
+        }
+        #box h1{
+            font-family: impallary;
+            font-weight: bold;
+            font-size: 400%;
+           
+        }
+        #box a:hover{
+                   background-color: rgba(27, 0, 0, 0.356);
+        }
+        #section1{
+            
+            display: flex;
+            justify-content: center;
+           
+            
+        }
+        .block{
+            width: 400px;
+            height: 300px;
+            border: 3px solid rgb(153, 21, 21);
+            border-radius: 30px;
+            margin: 40px;
+            text-align: center;
+            background-color: rgb(239 233 238);
+        
+        }
+        .block p{
+            word-wrap: break-word;
+        }
+        h1{
+            text-align: center;
+        }
+        #section2{
+            margin: 0px;
+            padding: 0px;
+            background: url('fruit\ eat.jfif');
+            background-size: 100%;
+            border-radius: 30px;
+            background-repeat: no-repeat;
+        }
+        #section2 div{
+            
+            margin: 11px;
+            display: flex;
+            justify-content:center;
+            padding-right: 30px;
+            
+            
+        }
+        #section2 ul{
+            margin: 0px;
+            padding: 0px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        #section2 div li{
+            
+            display: inline-block;
+            list-style: none;
+            margin-left: 40px;
+            
+        
+
+        }
+        #section2 div li h3{
+            text-align: center;
+        }
+        #section2 div li img{
+            border-radius: 11px;
+            width: 200px; 
+            height: 200px;
+        }
+        #section3{
+            margin: 0px;
+            padding: 0px;
+            background: url('nature.jpg');
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+        #section3 h1{
+            
+            font-weight: bold;
+            text-align: center;
+            color: white;
+        }
+        #section3 form{
+            
+            display: flex;
+            flex-direction: column;
+            margin: 0px;
+           
+    
+           
+        }
+        #section3 form input{
+            width: 35%;
+            height: 30px;
+            border: 2px solid black;
+            border-radius: 30px;
+            margin:auto;
+            margin-bottom: 11px;
+            text-align: center;
+           
+        }
+        #section3 form button{
+            width: fit-content;
+            margin: auto;
+            padding: 8px;
+            border: 2px solid black;
+            border-radius: 30px;
+            background-color:black;
+                        color: white;
+        }
+        #section3 form button:hover{
+            background-color:white;
+            color: black;
+        }
+        #section3 form p{
+                    text-align: center;
+                    background-color:white;
+                    color: black;
+                    font-size: large;
+        }
+        @media (max-width:1333px){
+            #section2 div li img{
+            width: 150px; 
+            height: 150px;
+        }
+        #section2 div{
+            padding-right: 10px;
+            }
+        #section2 div li{
+            margin-left: 20px;
+            }
+            }
+            @media (min-width:676px) and (max-width:940px){
+                #section2 div li img{
+            width: 100px; 
+            height: 100px;
+        }
+        #section2 div{
+            padding-right: 15px;
+            }
+        #section2 div li{
+            margin-left: 15px;
+            }
+            }
+            @media (min-width:545px) and (max-width:676px){
+                header li a{
+            padding-left: 30px;
+            padding-right: 10px;
+        }
+        #box{
+            margin-top: 20px;
+           }
+           .block{
+               margin: 5px;
+           }
+           header{
+               height: 400px;
+           }
+
+           #section2 div{
+            padding: 0px;
+            margin: 0px;
+            }
+        #section2 div li{
+            margin: 0px;
+            }
+            #section2{
+                padding: 0px;
+                margin: 0px;
+                background-size: 100% 100%;
+            }
+            #section2 div li img{
+            margin: 0px;
+            padding: 0px;
+            width: 100px; 
+            height: 100px;
+        }
+           }
+           @media (max-width:545px){
+            header li a{
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            padding-left: 10px;
+            padding-right: 5px;
+            font-size:small;
+        }
+        #section1{
+            flex-direction: column;
+        }
+        .block{
+            margin: auto;
+            margin-bottom: 5px;
+            margin-left: 5px;
+            margin-right: 5px;
+            height: auto;
+            width: auto;
+            
+        }
+        #box{
+            margin-top: 10px;
+        }
+        #box h1{
+            font-size: 250%;
+        }
+        #box a{
+            padding: 0px;
+        }
+        #box p{
+            font-size: small;
+        }
+        header{
+            height: 300px;
+        }
+        #section2{
+            background-size: 100% 100%;
+        }
+
+           }
+
+            
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        <div id="navigation">
+              <ul>
+                  <li><a href="/fruits">Home</a></li>
+                  <li><a href="/about">About</a></li>
+                  <li><a href="/services">services</a></li>
+                  <li><a href="/contact">Contact us</a></li>
+              </ul>
+        </div>
+        <div id="box">
+            <h1>Welcome to my website</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+     Ullam corrupti accusamus ea soluta aliquam magni earum obcaecati in laboriosam delectus!</p>
+             <a href="">Order Now</a>
+        </div>
+    </header>
+    <h1>Our Services</h1>
+    <section id="section1">
+        
+        <div class="block" id="block1">
+            <h2>
+                Order only 
+            </h2>
+            <p>Lorem ipsum dolor sit amet 
+          consectetur adipisicing elit.Sequi 
+        illum a temporibus magnam voluptatibus maxime
+     exercitationem optio necessitatibus soluta impedit?</p>
+        </div>
+        <div class="block" id="block2">
+            <h2>
+                Catering
+            </h2>
+            <p>Lorem ipsum dolor sit amet 
+                consectetur adipisicing elit.Sequi 
+              illum a temporibus magnam voluptatibus maxime
+           exercitationem optio necessitatibus soluta impedit?</p>
+        </div>
+        <div class="block" id="block3">
+            <h2>
+                Bulk odering
+            </h2>
+            <p>Lorem ipsum dolor sit amet 
+                consectetur adipisicing elit.Sequi 
+              illum a temporibus magnam voluptatibus maxime
+           exercitationem optio necessitatibus soluta impedit?</p>
+        </div>
+    </section>
+    <section id="section2">
+        <div>
+            <h1>Our Product</h1>
+        </div>
+        <div>
+          <ul>
+              <li> <h3>apple</h3>
+                  <img src="apple.jpg" alt="" ></li>
+              <li>
+                  <h3>banana</h3>
+                  <img src="banana.jpg" alt=""></li>
+              <li>
+                  <h3>pineapple</h3>
+                  <img src="pineapple.jpg" alt=""></li>
+              <li id="mango">
+                  <h3>mango</h3>
+                  <img src="mango.jpg" alt=""></li>
+              <li id="grapes">
+                  <h3>grapes</h3>
+                  <img   src="grapes.jpg" alt=""></li>
+          </ul>
+        </div>
+        <div>
+            <ul>
+                <li> <h3>orange</h3>
+                    <img src="orange.jfif" alt="" ></li>
+                <li>
+                    <h3>strawberry</h3>
+                    <img src="strawberry.jpg" alt=""></li>
+                <li>
+                    <h3>pomegrante</h3>
+                    <img src="pomegranate.jpg" alt=""></li>
+                <li id="papaya">
+                    <h3>papaya</h3>
+                    <img src="papaya.jfif" alt=""></li>
+                <li id="watermelon">
+                    <h3>watermelon</h3>
+                    <img  src="watermelon.jfif" alt=""></li>
+            </ul>
+        </div>
+
+    </section>
+    <section id="section3">
+        <h1>Register</h1>
+        <form action="">
+        
+               <input type="text" placeholder="name" >
+               <input type="email" placeholder="email">
+               <input type="tel" placeholder="mobile number">
+               <input type="text" placeholder="address">
+               <button>sumbit now</button>
+               <p>created by ravi</p>
+                </form>
+                
+
+    </section>
+    
+</body>
+</html>
