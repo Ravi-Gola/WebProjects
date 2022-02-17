@@ -1,0 +1,29 @@
+.header{
+    min-height: 50vh;
+    width: 100%;
+    background: url('fitness_images/exercise2.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.logo{
+    height: 100px;
+    width: 100px;               
+}
+#login{
+    margin-left: 20px;
+    background-color: black;
+    color: white;
+}
+#signup{
+    background-color: black;
+    color: white;
+}
+body #heading{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+}
